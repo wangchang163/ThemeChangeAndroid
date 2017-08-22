@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="color_bg_main">@color/color_bg_main_light</item>
+        <item name="text_style">@style/Text_light_style</item>
+        <item name="second_text_style">@style/second_text_style_light</item>
+    </style>
+
+    <style name="ThemeLight" parent="AppTheme">
+
+    </style>
+
+    <style name="ThemeDark" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="color_bg_main">@color/color_bg_main_drak</item>
+        <item name="text_style">@style/Text_dark_style</item>
+        <item name="second_text_style">@style/second_text_style_dark</item>
+    </style>
+
+    <style name="Text_light_style">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/color_black</item>
+    </style>
+
+    <style name="Text_dark_style">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+    <style name="second_text_style_light">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@color/color_black</item>
+        <item name="android:text">@string/text_intent_light</item>
+    </style>
+    <style name="second_text_style_dark">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:text">@string/text_intent_drak</item>
+    </style>
+</resources>
