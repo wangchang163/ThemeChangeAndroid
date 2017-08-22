@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:background="?attr/color_bg_main"
+    android:padding="16dp"
     tools:context="com.example.themechangeandroid.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/tv_light"
+            style="?attr/text_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="?attr/text_style"
             android:gravity="left"
             android:padding="16dp"
             android:text="@string/text_light" />
 
         <TextView
             android:id="@+id/tv_dark"
+            style="?attr/text_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="?attr/text_style"
             android:layout_marginLeft="16dp"
             android:gravity="left"
             android:padding="16dp"
             android:text="@string/text_dark" />
+
         <TextView
             android:id="@+id/tv_intent"
+            style="?attr/text_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="?attr/text_style"
             android:layout_marginLeft="16dp"
             android:gravity="left"
             android:padding="16dp"
